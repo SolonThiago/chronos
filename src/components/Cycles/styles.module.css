@@ -1,0 +1,25 @@
+.cycles {
+}
+
+.cycleDots {
+  display: flex;
+}
+
+.cycleDot {
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--primary);
+  border-radius: 50%;
+}
+
+.workTime {
+  background: var(--warning);
+}
+
+.shortBreakTime {
+  background: var(--primary);
+}
+
+.longBreakTime {
+  background: var(--info);
+}
